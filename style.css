@@ -1,0 +1,53 @@
+body {
+    overflow: hidden;
+}
+
+.body {
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.left {
+    flex: 1;
+    background: white;
+}
+
+.right {
+    flex: 1;
+    background: rgb(67, 139, 0);
+}
+
+.phi {
+    border: 12px solid white;
+    position: absolute;
+    width: 900px;
+    left: 300px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.divider {
+    width: 900px;
+    position: absolute;
+    left: 30px;
+    top: 80%;
+    transform: translateY(-50%);
+}
+
+.photo {
+    border: 12px solid white;
+    width: 500px;
+    height: 500px;
+    background: rgb(172, 172, 172);
+    position: absolute;
+    right: 250px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
